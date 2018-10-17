@@ -1,31 +1,31 @@
 #include<iostream.h>
 class Circle
 {
-private:
-int Radius;
-public:
-Circle():Radius(4){}
-void getRadius()
+  private:
+      int Radius;
+  public:
+      Circle():Radius(4){}
+  void getRadius()
 {
-cout<<"enter value for Radius";
-cin>>Radius;
+    cout<<"enter value for Radius";
+    cin>>Radius;
 }
-void showRadius()
+   void showRadius()
 {
-cout<<"value for Radius"<<Radius<<endl;
+      cout<<"value for Radius"<<Radius<<endl;
 }
-float area()
+    float area()
 {
-float result=3.14*Radius*Radius;
-return result;
+      float result=3.14*Radius*Radius;
+       return result;
 }
 };
-int main()
+    int main()
 {
-Circle r1;
-r1.showRadius();
-r1.getRadius();
-r1.showRadius();
-cout<<r1.area();
-return 0;
+    Circle r1;
+      r1.showRadius();
+      r1.getRadius();
+      r1.showRadius();
+    cout<<r1.area();
+       return 0;
 }
